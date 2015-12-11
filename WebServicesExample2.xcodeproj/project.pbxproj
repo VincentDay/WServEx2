@@ -14,6 +14,8 @@
 		613DBD8C1C18BBD700D3DCA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613DBD8A1C18BBD700D3DCA7 /* LaunchScreen.storyboard */; };
 		613DBD971C18BBD700D3DCA7 /* WebServicesExample2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBD961C18BBD700D3DCA7 /* WebServicesExample2Tests.swift */; };
 		613DBDA21C18BBD700D3DCA7 /* WebServicesExample2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBDA11C18BBD700D3DCA7 /* WebServicesExample2UITests.swift */; };
+		615E84401C1B18610002601F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E843F1C1B18610002601F /* SwiftyJSON.swift */; };
+		AA5695E7941EE723D1CFA31D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE4E7D2150CDE106D84847B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +33,59 @@
 			remoteGlobalIDString = 613DBD7D1C18BBD700D3DCA7;
 			remoteInfo = WebServicesExample2;
 		};
+		615E84301C1B14E40002601F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615E84261C1B14E30002601F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		615E84321C1B14E40002601F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615E84261C1B14E30002601F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = "SwiftyJSON iOS Tests";
+		};
+		615E84341C1B14E40002601F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615E84261C1B14E30002601F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX";
+		};
+		615E84361C1B14E40002601F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615E84261C1B14E30002601F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX Tests";
+		};
+		615E84381C1B14E40002601F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615E84261C1B14E30002601F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4D7CCE81B9465A700EE7221;
+			remoteInfo = "SwiftyJSON watchOS";
+		};
+		615E843A1C1B14E40002601F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615E84261C1B14E30002601F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7236B4F61BAC14150020529B;
+			remoteInfo = "SwiftyJSON tvOS";
+		};
+		615E843C1C1B14E40002601F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615E84261C1B14E30002601F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8580F741BCF5C5B00DA927B;
+			remoteInfo = "SwiftyJSON tvOS Tests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17C19B90C7ADDFDCE2B8C3DC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		613DBD7E1C18BBD700D3DCA7 /* WebServicesExample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServicesExample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613DBD811C18BBD700D3DCA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		613DBD831C18BBD700D3DCA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +99,11 @@
 		613DBD9D1C18BBD700D3DCA7 /* WebServicesExample2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebServicesExample2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		613DBDA11C18BBD700D3DCA7 /* WebServicesExample2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServicesExample2UITests.swift; sourceTree = "<group>"; };
 		613DBDA31C18BBD700D3DCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613DBDE91C18CEB100D3DCA7 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		615E84261C1B14E30002601F /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = "../../../../Downloads/SwiftyJSON-master 3/SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
+		615E843F1C1B18610002601F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../../Downloads/SwiftyJSON-master 3/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		CB8B0474793B6392CC8F2433 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DDE4E7D2150CDE106D84847B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5695E7941EE723D1CFA31D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +132,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F3919BC7C7C2F1AB77030F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB8B0474793B6392CC8F2433 /* Pods.debug.xcconfig */,
+				17C19B90C7ADDFDCE2B8C3DC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		613DBD751C18BBD700D3DCA7 = {
 			isa = PBXGroup;
 			children = (
+				613DBDE91C18CEB100D3DCA7 /* bridge.h */,
 				613DBD801C18BBD700D3DCA7 /* WebServicesExample2 */,
 				613DBD951C18BBD700D3DCA7 /* WebServicesExample2Tests */,
 				613DBDA01C18BBD700D3DCA7 /* WebServicesExample2UITests */,
 				613DBD7F1C18BBD700D3DCA7 /* Products */,
+				5F3919BC7C7C2F1AB77030F4 /* Pods */,
+				A0DECEDAF4195030E89AF4C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +167,8 @@
 		613DBD801C18BBD700D3DCA7 /* WebServicesExample2 */ = {
 			isa = PBXGroup;
 			children = (
+				615E843F1C1B18610002601F /* SwiftyJSON.swift */,
+				615E84261C1B14E30002601F /* SwiftyJSON.xcodeproj */,
 				613DBD811C18BBD700D3DCA7 /* AppDelegate.swift */,
 				613DBD831C18BBD700D3DCA7 /* ViewController.swift */,
 				613DBD851C18BBD700D3DCA7 /* Main.storyboard */,
@@ -125,6 +197,28 @@
 			path = WebServicesExample2UITests;
 			sourceTree = "<group>";
 		};
+		615E84271C1B14E30002601F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				615E84311C1B14E40002601F /* SwiftyJSON.framework */,
+				615E84331C1B14E40002601F /* SwiftyJSON iOS Tests.xctest */,
+				615E84351C1B14E40002601F /* SwiftyJSON.framework */,
+				615E84371C1B14E40002601F /* SwiftyJSON OSX Tests.xctest */,
+				615E84391C1B14E40002601F /* SwiftyJSON.framework */,
+				615E843B1C1B14E40002601F /* SwiftyJSON.framework */,
+				615E843D1C1B14E40002601F /* SwiftyJSON tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0DECEDAF4195030E89AF4C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4E7D2150CDE106D84847B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 613DBDA61C18BBD700D3DCA7 /* Build configuration list for PBXNativeTarget "WebServicesExample2" */;
 			buildPhases = (
+				299083A95024AD20EE7AED03 /* Check Pods Manifest.lock */,
 				613DBD7A1C18BBD700D3DCA7 /* Sources */,
 				613DBD7B1C18BBD700D3DCA7 /* Frameworks */,
 				613DBD7C1C18BBD700D3DCA7 /* Resources */,
+				40C0A2905CB69EF54B54DDE2 /* Embed Pods Frameworks */,
+				8C0C292A52BEC20FCA7BDA56 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +312,12 @@
 			mainGroup = 613DBD751C18BBD700D3DCA7;
 			productRefGroup = 613DBD7F1C18BBD700D3DCA7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 615E84271C1B14E30002601F /* Products */;
+					ProjectRef = 615E84261C1B14E30002601F /* SwiftyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				613DBD7D1C18BBD700D3DCA7 /* WebServicesExample2 */,
@@ -223,6 +326,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		615E84311C1B14E40002601F /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 615E84301C1B14E40002601F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		615E84331C1B14E40002601F /* SwiftyJSON iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON iOS Tests.xctest";
+			remoteRef = 615E84321C1B14E40002601F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		615E84351C1B14E40002601F /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 615E84341C1B14E40002601F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		615E84371C1B14E40002601F /* SwiftyJSON OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON OSX Tests.xctest";
+			remoteRef = 615E84361C1B14E40002601F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		615E84391C1B14E40002601F /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 615E84381C1B14E40002601F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		615E843B1C1B14E40002601F /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 615E843A1C1B14E40002601F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		615E843D1C1B14E40002601F /* SwiftyJSON tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON tvOS Tests.xctest";
+			remoteRef = 615E843C1C1B14E40002601F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		613DBD7C1C18BBD700D3DCA7 /* Resources */ = {
@@ -251,11 +406,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		299083A95024AD20EE7AED03 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40C0A2905CB69EF54B54DDE2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C0C292A52BEC20FCA7BDA56 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		613DBD7A1C18BBD700D3DCA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615E84401C1B18610002601F /* SwiftyJSON.swift in Sources */,
 				613DBD841C18BBD700D3DCA7 /* ViewController.swift in Sources */,
 				613DBD821C18BBD700D3DCA7 /* AppDelegate.swift in Sources */,
 			);
@@ -397,23 +601,29 @@
 		};
 		613DBDA71C18BBD700D3DCA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8B0474793B6392CC8F2433 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = WebServicesExample2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinkful.WebServicesExample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 			};
 			name = Debug;
 		};
 		613DBDA81C18BBD700D3DCA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C19B90C7ADDFDCE2B8C3DC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = WebServicesExample2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinkful.WebServicesExample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 			};
 			name = Release;
 		};
@@ -484,6 +694,7 @@
 				613DBDA81C18BBD700D3DCA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		613DBDA91C18BBD700D3DCA7 /* Build configuration list for PBXNativeTarget "WebServicesExample2Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +703,7 @@
 				613DBDAB1C18BBD700D3DCA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		613DBDAC1C18BBD700D3DCA7 /* Build configuration list for PBXNativeTarget "WebServicesExample2UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +712,7 @@
 				613DBDAE1C18BBD700D3DCA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
